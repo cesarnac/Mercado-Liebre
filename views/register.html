@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/Modulo 4/Mercado Liebre/views/register.html" method="POST" class="create-form">
+        <div class="control-formulario">
+            <label>Nombre y apellido</label>
+            <input type="text" name="nombre" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Nombre de usuari@</label>
+            <input type="text" name="nickname" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Domicilio</label>
+            <input type="text" name="domicilio" class="control">
+        </div>
+
+        <div class="control-formulario">
+            <label>Perfil del usuario:</label>
+            <select name="perfil-usuario" class="control">
+                <option value="comprar">Comprador</option>
+                <option value="vender">Vendedor</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label>Categoria:</label>
+            <select name="categoria" class="control">
+                <option value="electro">Electro</option>
+                <option value="moda">Moda</option>
+                <option value="hogar">Hogar</option>
+                <option value="jugueteria">Juguetería</option>
+                <option value="vida-sana">Vida sana</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label>Foto de perfil</label>
+            <input type="file" name="foto" accept=".jpg, .jpeg" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Contraseña</label>
+            <input type="password" name="contrasena" class="control">
+        </div>
+        <div class="control-formulario">
+            <label>Confirmar contraseña</label>
+            <input type="password" name="confirmar-password" class="control">
+        </div>
+        <button type="submit" class="boton-formulario">Guardar</button>
+        <button type="reset" class="boton-formulario">Borrar</button>
+    </form>
+</body>
+</html>
